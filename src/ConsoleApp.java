@@ -17,6 +17,8 @@ public class ConsoleApp {
                     width = Integer.parseInt(value);
                 } else if (key.equals("--height")) {
                     height = Integer.parseInt(value);
+                } else if (key.equals("--symbol")) {
+                    symbol = value;
                 }
             }
         }
